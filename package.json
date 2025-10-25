@@ -1,0 +1,22 @@
+{
+  "name": "coolest-js-theme",
+  "displayName": "coolest js theme",
+  "description": "really cool theme i made myself",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.105.0"
+  },
+  "icon": "icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Coolest JS Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Coolest JS Theme-color-theme.json"
+      }
+    ]
+  }
+}
